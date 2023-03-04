@@ -11,7 +11,7 @@ const Index = () => {
         <MainLayout>
             <main id="Home">
                 <section className="min-h-screen flex items-center justify-center flex-col gap-y-4">
-                    <h1 className="font-bold text-3xl">Start</h1>
+                    <h1 className="font-bold text-5xl">Start</h1>
                     <button onClick={handleNav}>onClick</button>
                 </section>
             </main>

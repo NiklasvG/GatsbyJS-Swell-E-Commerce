@@ -5,12 +5,11 @@ import MainLayout from '../components/Layouts/MainLayout'
 import { AppContext } from '../context/app-context'
 
 const Shop = ({ data }) => {
+    const { swell } = useContext(AppContext)
     const allProducts = data.allSwellProduct.nodes
 
     const [componentUnmounted, setComponentUnmounted] = useState(false)
     const [products, setProducts] = useState([])
-
-    const { swell } = useContext(AppContext)
 
     const getProducts = async (limit, page) => {
         !componentUnmounted &&
