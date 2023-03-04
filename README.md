@@ -18,10 +18,13 @@
     
 2.  **Adding .env**
 
-— Add the following global variables in .env:
-   GATSBY_SWELL_STORE_ID=your-store-id
-   GATSBY_SWELL_PUBLIC_KEY=your-public-key
-   GATSBY_SWELL_SECRET_KEY=your-secret-key
+    - Add the following global variables in .env:
+
+    ```shell
+    GATSBY_SWELL_STORE_ID=your-store-id
+    GATSBY_SWELL_PUBLIC_KEY=your-public-key
+    GATSBY_SWELL_SECRET_KEY=your-secret-key
+    ```
 
 3.  **Start developing.**
 
